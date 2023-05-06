@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/id"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".financialform">
+
+
+    <!--LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="104dp"
+            android:layout_height="39dp"
+            android:layout_marginTop="10dp"
+            android:text="ID"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/idTxt"
+            android:layout_width="304dp"
+            android:layout_height="64dp"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:hint="1"
+            android:textSize="20sp" />
+
+    </LinearLayout-->
+
+    <TextView
+        android:id="@+id/Instruction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="serif"
+        android:text="Please fill monthly amounts below"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="86dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="104dp"
+            android:layout_height="42dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/Salary"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/salary"
+            android:layout_width="304dp"
+            android:layout_height="72dp"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:hint="@string/salary"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="78dp">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="104dp"
+            android:layout_height="56dp"
+            android:text="@string/otherIncome"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/otherInc"
+            android:layout_width="308dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="6dp"
+            android:ems="10"
+            android:hint="@string/otherInc"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="74dp">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="104dp"
+            android:layout_height="57dp"
+            android:layout_marginTop="-5dp"
+            android:text="@string/Rent"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/rent"
+            android:layout_width="308dp"
+            android:layout_height="66dp"
+            android:ems="10"
+            android:hint="@string/Rent2"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="6dp"
+            android:layout_height="42dp"
+            android:layout_marginTop="-5dp"
+            android:layout_weight="1"
+            android:text="@string/Grocery"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/grocery"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/grocery2"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="4dp"
+            android:layout_height="42dp"
+            android:layout_weight="1"
+            android:text="@string/waterBill"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/waterBill"
+            android:layout_width="wrap_content"
+            android:layout_height="57dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/waterBill2"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="81dp">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="2dp"
+            android:layout_height="54dp"
+            android:layout_weight="1"
+            android:text="@string/electBill"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/electBill"
+            android:layout_width="wrap_content"
+            android:layout_height="68dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/electBill2"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="72dp">
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="2dp"
+            android:layout_height="55dp"
+            android:layout_weight="1"
+            android:text="@string/eduExpense"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/eduExpense"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/eduExpense2"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/insertBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="5dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/green"
+            android:text="INSERT" />
+
+        <Button
+            android:id="@+id/updateBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="5dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/green"
+            android:text="UPDATE" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/deleteBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="5dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/green"
+            android:text="DELETE" />
+
+        <Button
+            android:id="@+id/viewBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/green"
+            android:text="View All" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/savingsBtn"
+        android:layout_width="351dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:backgroundTint="@color/green"
+        android:text="View Savings" />
+
+</LinearLayout>
