@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserProfile">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#339966"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/addFamDetails"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="35dp"
+            android:foregroundGravity="center_horizontal"
+            app:cardCornerRadius="100dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/user" />
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/myProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8dp"
+            android:text="My Profile"
+            android:textColor="#fff"
+            android:textSize="23dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnViewFam"
+        android:layout_width="187dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="29dp"
+        android:backgroundTint="#339966"
+        android:text="View Family Details"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="@+id/addFamDetails"
+        app:layout_constraintStart_toStartOf="@+id/addFamDetails"
+        app:layout_constraintTop_toBottomOf="@+id/addFamDetails" />
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="116dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="125dp"
+        android:backgroundTint="@color/material_dynamic_neutral40"
+        android:text="LOGOUT"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnViewProfile"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/btnViewProfile"
+        android:layout_width="187dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="33dp"
+        android:backgroundTint="#339966"
+        android:text="view profile"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="@+id/btnViewFam"
+        app:layout_constraintStart_toStartOf="@+id/btnViewFam"
+        app:layout_constraintTop_toBottomOf="@+id/btnViewFam" />
+
+    <Button
+        android:id="@+id/addFamDetails"
+        android:layout_width="187dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="284dp"
+        android:backgroundTint="#339966"
+        android:text="Add Family Details "
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imgIcon"
+        android:layout_width="41dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="112dp"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnViewProfile"
+        app:srcCompat="@drawable/icon_1" />
+
+    <TextView
+        android:id="@+id/tvIncomex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:text="IncomeX"
+        android:textColor="@android:color/black"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="@+id/imgIcon"
+        app:layout_constraintStart_toStartOf="@+id/imgIcon"
+        app:layout_constraintTop_toBottomOf="@+id/imgIcon" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

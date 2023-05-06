@@ -179,4 +179,53 @@
     <string name="btnDelete"> Delete Details</string>
     <string name="btnUpdateProfile"> Update Details</string>
     <string name="btnViewProfile"> Delete Details</string>
+
+    <string name="tvUserProfile"></string>
+    <string name="tvName">Name</string>
+    <string name="name">Name</string>
+    <string name="tvConNo">Contact No</string>
+    <string name="phone">Contact No</string>
+    <string name="tvAddress">Address</string>
+    <string name="address">Address</string>
+    <string name="tvAge">Age</string>
+    <string name="age">Age</string>
+    <string name="tvUsername">Username</string>
+    <string name="username">Username</string>
+    <string name="tvPassword">Password</string>
+    <string name="tvQuestion">Question</string>
+    <string name="tvAnswer">Anaswer</string>
+    <string name="answer">Answer</string>
+
+
+    <string-array name="ques">
+        <item></item>
+        <item>What is the name of your pet?</item>
+        <item>What is your birthday month?</item>
+        <item>What is your favorite dessert</item>
+        <item>What is your favorite beverage</item>
+        <item>What is your favorite food</item>
+    </string-array>
+
+
+    //
+
+    <string name="tvMemberDetails">Member Details</string>
+    <string name="tvFamNum">Number of Family Members:</string>
+    <string name="children">C</string>
+    <string name="adult">A</string>
+    <string name="tvMemberDetails2"></string>
+    <string name="tvname">Name</string>
+    <string name="memName">Name</string>
+    <string name="tvage">Age</string>
+    <string name="memAge">Age</string>
+    <string name="tvoccupation">Occupation</string>
+    <string name="memOccupation">Occupation</string>
+    <string name="tvsoc">School/ Company</string>
+    <string name="memSoC">School/ Company</string>
+    <string name="memTransport"></string>
+    <string name="memIncome"></string>
+
+
+
+
 </resources>
