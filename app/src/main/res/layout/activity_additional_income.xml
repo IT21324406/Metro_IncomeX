@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/page4_2"
+    android:orientation="vertical"
+    tools:context=".AdditionalIncome">
+
+
+    <TextView
+        android:id="@+id/incomeHead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="Your Income Information"
+        android:textAlignment="center"
+        android:textColor="#339966"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/page4_3"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="320dp"
+        android:layout_marginTop="-47dp"
+        app:srcCompat="@drawable/page4_3" />
+
+    <EditText
+        android:id="@+id/id"
+        android:layout_width="236dp"
+        android:layout_height="63dp"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:hint="ID"
+        android:inputType="textPersonName"
+        android:padding="5dp" />
+
+    <TextView
+        android:id="@+id/logID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-60dp"
+        android:padding="5dp"
+        android:text="ID"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/logName"
+        android:layout_width="131dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:padding="5dp"
+        android:text="Member Name"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/ed_logName"
+        android:layout_width="227dp"
+        android:layout_height="56dp"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="-25dp"
+        android:ems="10"
+        android:hint="Enter Your Name"
+        android:inputType="textPersonName"
+        android:padding="10dp" />
+
+    <TextView
+        android:id="@+id/logCat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:padding="5dp"
+        android:text="Transaction Category"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/spn_logCat"
+        android:layout_width="221dp"
+        android:layout_height="59dp"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="-35dp"
+
+        android:entries="@array/category"
+        android:padding="10dp" />
+
+    <TextView
+        android:id="@+id/logTrans"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:padding="5dp"
+        android:text="Transaction Name"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/ed_logTrans"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="-50dp"
+        android:ems="10"
+        android:hint="Enter Income Name"
+        android:inputType="textPersonName"
+        android:padding="20dp" />
+
+    <TextView
+        android:id="@+id/logAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:padding="5dp"
+        android:text="Transaction Amount"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/ed_logAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="-50dp"
+        android:ems="10"
+        android:hint="Enter Amount"
+        android:inputType="text"
+        android:padding="20dp" />
+
+    <TextView
+        android:id="@+id/logFreq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:padding="5dp"
+        android:text="Transaction Frequency"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/spn_logFreq"
+        android:layout_width="227dp"
+        android:layout_height="64dp"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="-50dp"
+        android:entries="@array/frequency"
+        android:padding="10dp" />
+
+    <TextView
+        android:id="@+id/logDay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:padding="5dp"
+        android:text="No of Days"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/ed_logDays"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="-50dp"
+        android:ems="10"
+        android:hint="Enter the days"
+        android:inputType="text"
+        android:padding="20dp" />
+
+    <TextView
+        android:id="@+id/logDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:padding="5dp"
+        android:text="Transaction Date"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/ed_logDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="-40dp"
+        android:ems="10"
+        android:hint="Enter Date"
+        android:inputType="date"
+        android:padding="20dp" />
+
+    <TextView
+        android:id="@+id/totalAmount"
+        android:layout_width="95dp"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+
+    <Button
+        android:id="@+id/btn_income_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#339966"
+        android:text="Add transaction" />
+
+    <Button
+        android:id="@+id/btn_income_update"
+        android:layout_width="170dp"
+        android:layout_height="49dp"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="-50dp"
+        android:backgroundTint="#339966"
+        android:text="Update Log" />
+
+    <Button
+        android:id="@+id/btn_income_del"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="0dp"
+        android:backgroundTint="#339966"
+        android:text="Delete Log" />
+
+    <Button
+        android:id="@+id/btn_income_view"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="-50dp"
+        android:backgroundTint="#339966"
+        android:text="View Log List" />
+
+    <Button
+        android:id="@+id/btn_back4"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="-10dp"
+        android:backgroundTint="#AC1A1A"
+        android:text="Back" />
+
+
+
+</LinearLayout>

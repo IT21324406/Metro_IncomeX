@@ -1,0 +1,182 @@
+<resources>
+
+    //SHANOLI
+
+    <string name="app_name">AdditionalTransactions</string>
+    <string-array name="types">
+        <item>---Select---</item>
+        <item>Income</item>
+        <item>Expense</item>
+    </string-array>
+    <string-array name="category">
+        <item>---Select---</item>
+        <item>Household</item>
+        <item>Education</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="frequency">
+        <item>---Select---</item>
+        <item>One-time</item>
+        <item>Recurring</item>
+    </string-array>
+
+    //AMANDI
+
+    <string name="Salary">Salary</string>
+    <string name="otherIncome">Other income</string>
+    <string name="Rent">Rent</string>
+    <string name="Grocery">Grocery</string>
+    <string name="waterBill">Water bill</string>
+    <string name="electBill">Electricity bill</string>
+    <string name="eduExpense">Educational Expenses</string>
+    <string name="next1">Save</string>
+    <string name="button9">Delete</string>
+
+
+    <!--p>Edit Page</p-->
+    <string name="edit">Edit</string>
+    <string name="salary">200000</string>
+    <string name="otherInc">100000</string>
+    <string name="Rent2">10000</string>
+    <string name="grocery2">6000</string>
+    <string name="waterBill2">3000</string>
+    <string name="electBill2">6000</string>
+    <string name="eduExpense2">80000</string>
+    <string name="next">Next</string>
+
+
+    <!--p>About Us Page</p-->
+    <string name="abtUs">About Us</string>
+    <string name="version">Version 1.0.4</string>
+    <string name="OperatingSys">Android 10 Operating System</string>
+    <string name="headline">We assist you in managing your money!!!</string>
+    <string name="description">    Keep a track of your expenses
+    Get notified about due expenses
+    Get an idea about your monthly savings</string>
+
+    <!--p>Income and expenses starting Page</p-->
+    <string name="record">Record Your Income and Expenses</string>
+    <string name="start">Start</string>
+
+
+    <!--p>Notifications Page</p-->
+    <string name="notification">Notifications</string>
+    <string name="notific1">Rent is due tomorrow</string>
+    <string name="notific2">Savings today</string>
+    <string name="notific3">Semester fee is due</string>
+    <string name="notific4">Update your wallet log</string>
+    <string name="notific5">Software update</string>
+    <string name="notific6">Confirm income </string>
+
+    <!--p>Set Goal Page</p-->
+    <string name="goalText">Set your Goal</string>
+    <string name="rangeText">Select from the range</string>
+    <string name="nmbr0">0</string>
+    <string name="nmbr100">100</string>
+    <string name="button6">Next</string>
+    <string name="setBtn">Set</string>
+
+    <!--p>Savings Display Page</p-->
+    <string name="Savings">Savings</string>
+    <!--string name="rangeText">Select from the range</string>
+    <string name="button6">Next</string>
+    <string name="nmbr100">100</string-->
+
+
+    //AMANDA
+
+    <string name="imageView"></string>
+    <string name="textView">IncomeX</string>
+    <string name="editTextTextPersonName">Enter Username</string>
+    <string name="editTextTextPersonName2">Enter Password</string>
+    <string name="btnLogin">LOGIN</string>
+    <string name="button12">Forgot Password?</string>
+    <string name="button13">Do not have an account? Create one</string>
+
+    //activity_main2 - Forget Password
+    <string name="app_name2">Reset Password</string>
+    <string name="textView5">Reset Password</string>
+    <string name="textView6">Please select the question and the answer you gave when creating the account.</string>
+    <string name="textView7">Select Question</string>
+    <string name="spinner"></string>
+    <string name="editTextTextPersonName3">Enter Answer</string>
+    <string name="button2">Cancel</string>
+    <string name="button3">Enter</string>
+
+    <string-array name="question">
+        <item></item>
+        <item>What is the name of your pet?</item>
+        <item>What is your birthday month?</item>
+        <item>What is your favorite dessert</item>
+        <item>What is your favorite beverage</item>
+        <item>What is your favorite food</item>
+    </string-array>
+
+    //activity_main3 - Reset Password
+    <string name="app_name3">Reset Password</string>
+    <string name="textView8">Reset Password</string>
+    <string name="frameLayout"></string>
+    <string name="editTextTextPersonName4">Create New Password:</string>
+    <string name="editTextTextPersonName5">Confirm Password</string>
+    <string name="button4">CANCEL</string>
+    <string name="button5">CONFIRM</string>
+
+    //activity_main4 - Registration
+    <string name="app_name4">Registration Form</string>
+    <string name="textView9">Registration Form</string>
+    <string name="edtName">Full Name</string>
+    <string name="edtPhone">Contact Number</string>
+    <string name="edtAddress">Address</string>
+    <string name="edtOccupation">Occupation</string>
+    <string name="textView10">Are you using IncomeX for:</string>
+    <string name="cbMy">Myself</string>
+    <string name="cbFam">Family</string>
+    <string name="edtUsername">Enter Username:</string>
+    <string name="edtPassword">Enter Password:</string>
+    <string name="textView11">Choose one of the below questions and enter your own answer. Do not lose the selected question and the answer you entered as it will be used to verify when you want to change the password</string>
+    <string name="textView12">Select Question</string>
+    <string name="spQuestion"></string>
+    <string name="edtAnswer">Enter Answer:</string>
+    <string name="btnSave">SAVE AND NEXT</string>
+
+    <string-array name="questions">
+        <item></item>
+        <item>What is the name of your pet?</item>
+        <item>What is your birthday month?</item>
+        <item>What is your favorite dessert</item>
+        <item>What is your favorite beverage</item>
+        <item>What is your favorite food</item>
+    </string-array>
+
+    //activity_main5 - Family Details
+    <string name="app_name5">Family Details</string>
+    <string name="textView16">Family Details</string>
+    <string name="textView17">Number of Family Members:</string>
+    <string name="editTextNumberDecimal">Adults</string>
+    <string name="editTextNumberDecimal3">Children</string>
+    <string name="textView18">Number of Members who are studying:</string>
+    <string name="editTextNumberDecimal5">No</string>
+    <string name="textView13">Member Details</string>
+    <string name="editTextTextPersonName13">Name:</string>
+    <string name="editTextTextPersonName14">Age:</string>
+    <string name="editTextTextPersonName15">Occupation:</string>
+    <string name="editTextTextPersonName16">School/ Company Name:</string>
+    <string name="textView14">Are you using transport?</string>
+    <string name="cbTransport">Yes</string>
+    <string name="textView15">Are you getting an Income?</string>
+    <string name="cbIncome">Yes</string>
+    <string name="button7">+Add Member</string>
+    <string name="button8">BACK</string>
+    <string name="btnSubmit">Submit</string>
+
+    //activity_main7 - User Profile
+    <string name="myProfile"> My Profile</string>
+    <string name="btnLogout"> Logout</string>
+    <string name="btnFamDetails"> Add Family Details</string>
+    <string name="btnView"> View Details</string>
+    <string name="btnUpdate"> Update Details</string>
+    <string name="btnDelete"> Delete Details</string>
+    <string name="btnUpdateProfile"> Update Details</string>
+    <string name="btnViewProfile"> Delete Details</string>
+</resources>
